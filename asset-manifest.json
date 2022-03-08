@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/hrvgPortaFolio/static/css/main.1455a950.css",
+    "main.js": "/hrvgPortaFolio/static/js/main.0f17876b.js",
+    "static/js/787.62b2baa8.chunk.js": "/hrvgPortaFolio/static/js/787.62b2baa8.chunk.js",
+    "static/media/AgenciadeViajes.png": "/hrvgPortaFolio/static/media/AgenciadeViajes.74f10c25156d9345396d.png",
+    "static/media/yo.png": "/hrvgPortaFolio/static/media/yo.e1148f6459ad0c375c2f.png",
+    "static/media/BuscadorDeImagenes.png": "/hrvgPortaFolio/static/media/BuscadorDeImagenes.00148fccc4b475d778be.png",
+    "static/media/CVPortafolio.pdf": "/hrvgPortaFolio/static/media/CVPortafolio.94b495fb593d502aabb0.pdf",
+    "static/media/GiphyAPI.png": "/hrvgPortaFolio/static/media/GiphyAPI.6e78a58d3b52cb9953f8.png",
+    "static/media/HotelGatsbyCMSStrapi.png": "/hrvgPortaFolio/static/media/HotelGatsbyCMSStrapi.b581dd73e896f3b5a9d8.png",
+    "static/media/Mascotas.png": "/hrvgPortaFolio/static/media/Mascotas.418ebb32eddcc3896282.png",
+    "static/media/Contacto4.jpeg": "/hrvgPortaFolio/static/media/Contacto4.62a167842bf1378cdb1d.jpeg",
+    "static/media/Criptomonedas.png": "/hrvgPortaFolio/static/media/Criptomonedas.71e5870957f23ac6dc40.png",
+    "static/media/Contacto3.jpg": "/hrvgPortaFolio/static/media/Contacto3.b2539c4f9042ec9a7614.jpg",
+    "static/media/back.jpg": "/hrvgPortaFolio/static/media/back.d8c964ee3e5718cdc7a6.jpg",
+    "static/media/ArcDevelopment.png": "/hrvgPortaFolio/static/media/ArcDevelopment.e3020701e0fec18e7ede.png",
+    "static/media/back2.png": "/hrvgPortaFolio/static/media/back2.7f3c712246dcecf20483.png",
+    "static/media/DataGrid.png": "/hrvgPortaFolio/static/media/DataGrid.f9e8f38f6782184a6d7e.png",
+    "static/media/MernTask.png": "/hrvgPortaFolio/static/media/MernTask.d48de0c4bf1ed1d85089.png",
+    "static/media/logoHumberto.png": "/hrvgPortaFolio/static/media/logoHumberto.1ef5ea1708b4dc5c31a8.png",
+    "index.html": "/hrvgPortaFolio/index.html",
+    "main.1455a950.css.map": "/hrvgPortaFolio/static/css/main.1455a950.css.map",
+    "main.0f17876b.js.map": "/hrvgPortaFolio/static/js/main.0f17876b.js.map",
+    "787.62b2baa8.chunk.js.map": "/hrvgPortaFolio/static/js/787.62b2baa8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1455a950.css",
+    "static/js/main.0f17876b.js"
+  ]
+}
