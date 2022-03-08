@@ -93,25 +93,25 @@ const ResponsiveAppBar = (props) => {
             >
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
-                  <LinkStyled to='/hrvgPortaFolio/'>Inicio</LinkStyled>
+                  <LinkStyled to='/'>Inicio</LinkStyled>
                 </Typography>
               </MenuItem>
 
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
-                  <LinkStyled to='/hrvgPortaFolio/Sobre/'>Sobre</LinkStyled>
+                  <LinkStyled to='sobre'>Sobre</LinkStyled>
                 </Typography>
               </MenuItem>
 
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
-                  <LinkStyled to='/hrvgPortaFolio/Contacto/'>Contacto</LinkStyled>
+                  <LinkStyled to='contacto'>Contacto</LinkStyled>
                 </Typography>
               </MenuItem>
 
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
-                  <LinkStyled to='/hrvgPortaFolio/Portafolio/'>Portafolio</LinkStyled>
+                  <LinkStyled to='portafolio'>Portafolio</LinkStyled>
                 </Typography>
               </MenuItem>
 
@@ -131,25 +131,25 @@ const ResponsiveAppBar = (props) => {
             <Button
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}>
-              <LinkStyled to='/hrvgPortaFolio/'>Inicio</LinkStyled>
+              <LinkStyled to='/'>Inicio</LinkStyled>
             </Button>
 
             <Button
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}>
-              <LinkStyled to='/hrvgPortaFolio/Sobre/'>Sobre</LinkStyled>
+              <LinkStyled to='sobre'>Sobre</LinkStyled>
             </Button>
 
             <Button
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}>
-              <LinkStyled to='/hrvgPortaFolio/Contacto/'>Contacto</LinkStyled>
+              <LinkStyled to='contacto'>Contacto</LinkStyled>
             </Button>
 
             <Button
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}>
-              <LinkStyled to='/hrvgPortaFolio/Portafolio/'>Portafolio</LinkStyled>
+              <LinkStyled to='portafolio'>Portafolio</LinkStyled>
             </Button>
 
           </Box>

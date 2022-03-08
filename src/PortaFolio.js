@@ -11,6 +11,7 @@ import Portafolio from './components/portafolio/Portafolio';
 
 // React-router-dom
 import { Route, Routes } from 'react-router-dom';
+// import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 const PortaFolio = (props) => {
@@ -24,15 +25,14 @@ const PortaFolio = (props) => {
           escogerColor={props.escogerColor}
         />
       </header>
-
-      <Routes>
-
-        <Route path="/hrvgPortaFolio/" element={<Home />} />
-        <Route path="/hrvgPortaFolio/Sobre/" element={<Sobre />} />
-        <Route path="/hrvgPortaFolio/Contacto/" element={<Contact />} />
-        <Route path="/hrvgPortaFolio/Portafolio/" element={<Portafolio />} />
-      </Routes>
-
+     
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="sobre/" element={<Sobre />} />
+          <Route path="contacto/" element={<Contact />} />
+          <Route path="portafolio/" element={<Portafolio />} />
+        </Routes>
+     
 
       <Footer />
 

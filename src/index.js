@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from "react-dom";
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -8,9 +8,9 @@ import reportWebVitals from './reportWebVitals';
 const rootElement = document.getElementById('root');
 render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter hashType="hashbang" >
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>, rootElement
 );
 
