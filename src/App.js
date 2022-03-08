@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useMemo, useState } from 'react';
+// MUI
+// import useMediaQuery from '@mui/material/useMediaQuery';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+import PortaFolio from './PortaFolio';
 
 function App() {
+  console.log('render app');
+  const [escogerColor, setEscogerColor] = useState('dark')
+  // const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  const theme = useMemo(
+    () =>
+      createTheme({
+        palette: {
+          mode: escogerColor,
+        },
+      }),
+    [escogerColor],
+  );
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      
+      <PortaFolio 
+        setEscogerColor={setEscogerColor}
+        escogerColor={escogerColor}
+      />
+    </ThemeProvider>
   );
 }
 

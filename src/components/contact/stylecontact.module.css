@@ -1,0 +1,25 @@
+
+.ImgBackgroundContact {
+  
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-image:url('./Contacto3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: 'center';
+  align-items: 'center';
+  animation: change 20s infinite ease;
+  color: #2bff00;
+} 
+
+@keyframes change {
+  0% {
+    background-image: url('./Contacto3.jpg');
+  }
+  100% {
+    background-image: url('./Contacto4.jpeg');
+  } 
+}
