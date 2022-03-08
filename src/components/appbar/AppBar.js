@@ -99,19 +99,19 @@ const ResponsiveAppBar = (props) => {
 
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
-                  <LinkStyled to='/hrvgPortaFolio/Sobre'>Sobre</LinkStyled>
+                  <LinkStyled to='/hrvgPortaFolio/Sobre/'>Sobre</LinkStyled>
                 </Typography>
               </MenuItem>
 
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
-                  <LinkStyled to='/hrvgPortaFolio/Contacto'>Contacto</LinkStyled>
+                  <LinkStyled to='/hrvgPortaFolio/Contacto/'>Contacto</LinkStyled>
                 </Typography>
               </MenuItem>
 
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
-                  <LinkStyled to='/hrvgPortaFolio/Portafolio'>Portafolio</LinkStyled>
+                  <LinkStyled to='/hrvgPortaFolio/Portafolio/'>Portafolio</LinkStyled>
                 </Typography>
               </MenuItem>
 
@@ -137,19 +137,19 @@ const ResponsiveAppBar = (props) => {
             <Button
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}>
-              <LinkStyled to='/hrvgPortaFolio/Sobre'>Sobre</LinkStyled>
+              <LinkStyled to='/hrvgPortaFolio/Sobre/'>Sobre</LinkStyled>
             </Button>
 
             <Button
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}>
-              <LinkStyled to='/hrvgPortaFolio/Contacto'>Contacto</LinkStyled>
+              <LinkStyled to='/hrvgPortaFolio/Contacto/'>Contacto</LinkStyled>
             </Button>
 
             <Button
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}>
-              <LinkStyled to='/hrvgPortaFolio/Portafolio'>Portafolio</LinkStyled>
+              <LinkStyled to='/hrvgPortaFolio/Portafolio/'>Portafolio</LinkStyled>
             </Button>
 
           </Box>

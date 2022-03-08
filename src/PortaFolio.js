@@ -28,9 +28,9 @@ const PortaFolio = (props) => {
       <Routes>
 
         <Route path="/hrvgPortaFolio/" element={<Home />} />
-        <Route path="/hrvgPortaFolio/Sobre" element={<Sobre />} />
-        <Route path="/hrvgPortaFolio/Contacto" element={<Contact />} />
-        <Route path="/hrvgPortaFolio/Portafolio" element={<Portafolio />} />
+        <Route path="/hrvgPortaFolio/Sobre/" element={<Sobre />} />
+        <Route path="/hrvgPortaFolio/Contacto/" element={<Contact />} />
+        <Route path="/hrvgPortaFolio/Portafolio/" element={<Portafolio />} />
       </Routes>
 
 
