@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hrvgPortaFolio/static/css/main.1455a950.css",
-    "main.js": "/hrvgPortaFolio/static/js/main.780588af.js",
+    "main.js": "/hrvgPortaFolio/static/js/main.bb1f4547.js",
     "static/js/787.62b2baa8.chunk.js": "/hrvgPortaFolio/static/js/787.62b2baa8.chunk.js",
     "static/media/AgenciadeViajes.png": "/hrvgPortaFolio/static/media/AgenciadeViajes.74f10c25156d9345396d.png",
     "static/media/yo.png": "/hrvgPortaFolio/static/media/yo.e1148f6459ad0c375c2f.png",
@@ -21,11 +21,11 @@
     "static/media/logoHumberto.png": "/hrvgPortaFolio/static/media/logoHumberto.1ef5ea1708b4dc5c31a8.png",
     "index.html": "/hrvgPortaFolio/index.html",
     "main.1455a950.css.map": "/hrvgPortaFolio/static/css/main.1455a950.css.map",
-    "main.780588af.js.map": "/hrvgPortaFolio/static/js/main.780588af.js.map",
+    "main.bb1f4547.js.map": "/hrvgPortaFolio/static/js/main.bb1f4547.js.map",
     "787.62b2baa8.chunk.js.map": "/hrvgPortaFolio/static/js/787.62b2baa8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1455a950.css",
-    "static/js/main.780588af.js"
+    "static/js/main.bb1f4547.js"
   ]
 }
