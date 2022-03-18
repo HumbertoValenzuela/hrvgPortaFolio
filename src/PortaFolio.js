@@ -15,6 +15,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
 const PortaFolio = (props) => {
+  // "homepage": "https://humbertovalenzuela.github.io/hrvgPortaFolio/",  
   return (
     <Grid className="App">
       <CssBaseline />
@@ -25,7 +26,6 @@ const PortaFolio = (props) => {
           escogerColor={props.escogerColor}
         />
       </header>
-     
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="sobre/" element={<Sobre />} />

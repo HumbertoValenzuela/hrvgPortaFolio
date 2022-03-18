@@ -130,19 +130,19 @@ const ResponsiveAppBar = (props) => {
 
             <Button
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: 'white', display: 'block' }}>
+              sx={{ my: 2, display: 'block' }}>
               <LinkStyled to='/'>Inicio</LinkStyled>
             </Button>
 
             <Button
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: 'white', display: 'block' }}>
+              sx={{ my: 2,  display: 'block' }}>
               <LinkStyled to='sobre'>Sobre</LinkStyled>
             </Button>
 
             <Button
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: 'white', display: 'block' }}>
+              sx={{ my: 2, display: 'block' }}>
               <LinkStyled to='contacto'>Contacto</LinkStyled>
             </Button>
 
